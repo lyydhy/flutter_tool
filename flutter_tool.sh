@@ -30,7 +30,7 @@ function welcome() {
 welcome
 # 具体打包命令
 function build() {
-  file=$HOME/Desktop/$appname/$channel/
+  file=$HOME/Desktop/flutterBuild/$appname/$channel/
   flutter build apk $DART_DEFINES --split-per-abi
   echo ""
   echo "打包完成"
