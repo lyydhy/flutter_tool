@@ -34,7 +34,7 @@ function build() {
   flutter build apk $DART_DEFINES --split-per-abi
   echo ""
   echo "打包完成"
-  cd $homePwd/build/app/outputs/apk/release/
+  cd $homePwd/build/app/outputs/flutter-apk/
   if [ -d "$file" ]; then
     cpExport
   else
